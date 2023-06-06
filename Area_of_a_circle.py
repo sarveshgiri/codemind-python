@@ -1,2 +1,4 @@
 r=int(input())
-print(format(r*3.14*r,".2f"))
+a=3.14*r*r
+ar="{:.2f}".format(a)
+print(ar)
